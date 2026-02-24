@@ -105,20 +105,25 @@ bool init()
 	glEnable(GL_BLEND);
 	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
+	// setup the textures
 	C3dglBitmap bm;
 	bm.load("models\\sand.png", GL_RGBA);
 	if (!bm.getBits()) return false;
-
-	// setup the textures
 	glActiveTexture(GL_TEXTURE1);
+	glGenTextures(1, &idTexSand);
 	glBindTexture(GL_TEXTURE_2D, idTexSand);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, bm.getWidth(), bm.getHeight(), 0, GL_RGBA, GL_UNSIGNED_BYTE, bm.getBits());
 	programTerrain.sendUniform("textureBed", 1);
+
 
 	bm.load("models\\grass.png", GL_RGBA);
 	if (!bm.getBits()) return false;
-
 	glActiveTexture(GL_TEXTURE2);
+	glGenTextures(1, &idTexGrass);
 	glBindTexture(GL_TEXTURE_2D, idTexGrass);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, bm.getWidth(), bm.getHeight(), 0, GL_RGBA, GL_UNSIGNED_BYTE, bm.getBits());
 	programTerrain.sendUniform("textureShore", 2);
 
 	// setup lights (for basic and terrain programs only, water does not use these lights):
@@ -142,6 +147,10 @@ bool init()
 	programTerrain.sendUniform("waterColor", vec3(0.2f, 0.22f, 0.02f));
 	programTerrain.sendUniform("waterLevel", waterLevel);
 
+	programTerrain.sendUniform("fogColour", vec3(0.2f, 0.22f, 0.02f));
+	programTerrain.sendUniform("fogDensity", 0.3f);
+
+
 	// Initialise the View Matrix (initial position of the camera)
 	matrixView = rotate(mat4(1), radians(12.f), vec3(1, 0, 0));
 	matrixView *= lookAt(
@@ -151,6 +160,9 @@ bool init()
 
 	// setup the screen background colour
 	glClearColor(0.2f, 0.6f, 1.f, 1.0f);   // blue sky colour
+
+	glEnable(GL_BLEND);
+	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
 	cout << endl;
 	cout << "Use:" << endl;
@@ -166,11 +178,14 @@ void renderScene(mat4& matrixView, float time, float deltaTime)
 {
 	mat4 m;
 
+	// send the animation time to shaders
+	programWater.sendUniform("t", time);
+
 	// Render Terrain
 	programTerrain.use();
 
 	// Setup the Diffuse Material to: Green Grass
-	programTerrain.sendUniform("materialDiffuse", vec3(0.2f, 0.8f, 0.2f));
+	programTerrain.sendUniform("materialDiffuse", vec3(1.0));
 
 	// render the terrain
 	m = matrixView;

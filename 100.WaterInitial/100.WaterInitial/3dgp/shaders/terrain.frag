@@ -9,6 +9,9 @@ in vec2 texCoord0;
 uniform sampler2D textureBed;
 uniform sampler2D textureShore;
 
+uniform vec3 fogColour;
+in float fogFactor;
+
 // Water-related
 uniform vec3 waterColor;
 
@@ -22,9 +25,8 @@ void main(void)
 {
 	// shoreline multitexturing
 	float isAboveWater = clamp(-waterDepth, 0, 1);
+	outColor = color;
 	outColor *= mix(texture(textureBed, texCoord0), texture(textureShore, texCoord0), isAboveWater);
 
-    vec4 terrainColor = mix(texture(textureBed, texCoord0), texture(textureShore, texCoord0), isAboveWater);
-
-	outColor = color;
+	outColor = mix(vec4(fogColour, 1), outColor, fogFactor);
 }
