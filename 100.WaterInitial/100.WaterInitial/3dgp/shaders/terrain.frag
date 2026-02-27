@@ -28,5 +28,6 @@ void main(void)
 	outColor = color;
 	outColor *= mix(texture(textureBed, texCoord0), texture(textureShore, texCoord0), isAboveWater);
 
-	outColor = mix(vec4(fogColour, 1), outColor, fogFactor);
+	float finalFog = clamp(fogFactor, 0.0, 1.0);
+	outColor = mix(vec4(fogColour, 1.0), outColor, finalFog);
 }

@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\k2417242\github\waterInitial\100.WaterInitial\100.WaterInitial\x64\Debug\3dgl.dll</FullPath>
+      <FullPath>C:\Users\jonxg\Documents\GitHub\waterInitial\100.WaterInitial\100.WaterInitial\x64\Debug\3dgl.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\k2417242\github\waterInitial\100.WaterInitial\100.WaterInitial\x64\Debug\Water.exe</FullPath>
+      <FullPath>C:\Users\jonxg\Documents\GitHub\waterInitial\100.WaterInitial\100.WaterInitial\x64\Debug\Water.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

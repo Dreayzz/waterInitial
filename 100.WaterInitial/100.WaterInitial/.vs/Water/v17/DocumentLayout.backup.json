@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\k2417242\\github\\waterInitial\\100.WaterInitial\\100.WaterInitial\\",
+  "WorkspaceRootPath": "C:\\Users\\jonxg\\Documents\\GitHub\\waterInitial\\100.WaterInitial\\100.WaterInitial\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B296954B-E2FB-4F54-8A4C-340A8434F270}|3dgp\\3dgp.vcxproj|C:\\Users\\k2417242\\github\\waterInitial\\100.WaterInitial\\100.WaterInitial\\3dgp\\shaders\\water.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{B296954B-E2FB-4F54-8A4C-340A8434F270}|3dgp\\3dgp.vcxproj|solutionrelative:3dgp\\shaders\\water.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{B296954B-E2FB-4F54-8A4C-340A8434F270}|3dgp\\3dgp.vcxproj|C:\\Users\\jonxg\\Documents\\GitHub\\waterInitial\\100.WaterInitial\\100.WaterInitial\\3dgp\\shaders\\terrain.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B296954B-E2FB-4F54-8A4C-340A8434F270}|3dgp\\3dgp.vcxproj|solutionrelative:3dgp\\shaders\\terrain.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B296954B-E2FB-4F54-8A4C-340A8434F270}|3dgp\\3dgp.vcxproj|C:\\Users\\k2417242\\github\\waterInitial\\100.WaterInitial\\100.WaterInitial\\3dgp\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B296954B-E2FB-4F54-8A4C-340A8434F270}|3dgp\\3dgp.vcxproj|solutionrelative:3dgp\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B296954B-E2FB-4F54-8A4C-340A8434F270}|3dgp\\3dgp.vcxproj|C:\\Users\\k2417242\\github\\waterInitial\\100.WaterInitial\\100.WaterInitial\\3dgp\\shaders\\terrain.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{B296954B-E2FB-4F54-8A4C-340A8434F270}|3dgp\\3dgp.vcxproj|C:\\Users\\jonxg\\Documents\\GitHub\\waterInitial\\100.WaterInitial\\100.WaterInitial\\3dgp\\shaders\\terrain.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{B296954B-E2FB-4F54-8A4C-340A8434F270}|3dgp\\3dgp.vcxproj|solutionrelative:3dgp\\shaders\\terrain.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B296954B-E2FB-4F54-8A4C-340A8434F270}|3dgp\\3dgp.vcxproj|C:\\Users\\k2417242\\github\\waterInitial\\100.WaterInitial\\100.WaterInitial\\3dgp\\shaders\\water.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{B296954B-E2FB-4F54-8A4C-340A8434F270}|3dgp\\3dgp.vcxproj|C:\\Users\\jonxg\\Documents\\GitHub\\waterInitial\\100.WaterInitial\\100.WaterInitial\\3dgp\\shaders\\water.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{B296954B-E2FB-4F54-8A4C-340A8434F270}|3dgp\\3dgp.vcxproj|solutionrelative:3dgp\\shaders\\water.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B296954B-E2FB-4F54-8A4C-340A8434F270}|3dgp\\3dgp.vcxproj|C:\\Users\\k2417242\\github\\waterInitial\\100.WaterInitial\\100.WaterInitial\\3dgp\\shaders\\terrain.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{B296954B-E2FB-4F54-8A4C-340A8434F270}|3dgp\\3dgp.vcxproj|solutionrelative:3dgp\\shaders\\terrain.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{B296954B-E2FB-4F54-8A4C-340A8434F270}|3dgp\\3dgp.vcxproj|C:\\Users\\jonxg\\Documents\\GitHub\\waterInitial\\100.WaterInitial\\100.WaterInitial\\3dgp\\shaders\\water.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B296954B-E2FB-4F54-8A4C-340A8434F270}|3dgp\\3dgp.vcxproj|solutionrelative:3dgp\\shaders\\water.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B296954B-E2FB-4F54-8A4C-340A8434F270}|3dgp\\3dgp.vcxproj|C:\\Users\\jonxg\\Documents\\GitHub\\waterInitial\\100.WaterInitial\\100.WaterInitial\\3dgp\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B296954B-E2FB-4F54-8A4C-340A8434F270}|3dgp\\3dgp.vcxproj|solutionrelative:3dgp\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,41 +30,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "terrain.frag",
-              "DocumentMoniker": "C:\\Users\\k2417242\\github\\waterInitial\\100.WaterInitial\\100.WaterInitial\\3dgp\\shaders\\terrain.frag",
+              "DocumentMoniker": "C:\\Users\\jonxg\\Documents\\GitHub\\waterInitial\\100.WaterInitial\\100.WaterInitial\\3dgp\\shaders\\terrain.frag",
               "RelativeDocumentMoniker": "3dgp\\shaders\\terrain.frag",
-              "ToolTip": "C:\\Users\\k2417242\\github\\waterInitial\\100.WaterInitial\\100.WaterInitial\\3dgp\\shaders\\terrain.frag",
+              "ToolTip": "C:\\Users\\jonxg\\Documents\\GitHub\\waterInitial\\100.WaterInitial\\100.WaterInitial\\3dgp\\shaders\\terrain.frag",
               "RelativeToolTip": "3dgp\\shaders\\terrain.frag",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-02-24T10:49:47.255Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "terrain.vert",
-              "DocumentMoniker": "C:\\Users\\k2417242\\github\\waterInitial\\100.WaterInitial\\100.WaterInitial\\3dgp\\shaders\\terrain.vert",
+              "DocumentMoniker": "C:\\Users\\jonxg\\Documents\\GitHub\\waterInitial\\100.WaterInitial\\100.WaterInitial\\3dgp\\shaders\\terrain.vert",
               "RelativeDocumentMoniker": "3dgp\\shaders\\terrain.vert",
-              "ToolTip": "C:\\Users\\k2417242\\github\\waterInitial\\100.WaterInitial\\100.WaterInitial\\3dgp\\shaders\\terrain.vert",
+              "ToolTip": "C:\\Users\\jonxg\\Documents\\GitHub\\waterInitial\\100.WaterInitial\\100.WaterInitial\\3dgp\\shaders\\terrain.vert",
               "RelativeToolTip": "3dgp\\shaders\\terrain.vert",
-              "ViewState": "AgIAACkAAAAAAAAAAAAAwEYAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAYwEwAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-02-24T11:19:38.788Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "water.frag",
-              "DocumentMoniker": "C:\\Users\\k2417242\\github\\waterInitial\\100.WaterInitial\\100.WaterInitial\\3dgp\\shaders\\water.frag",
+              "DocumentMoniker": "C:\\Users\\jonxg\\Documents\\GitHub\\waterInitial\\100.WaterInitial\\100.WaterInitial\\3dgp\\shaders\\water.frag",
               "RelativeDocumentMoniker": "3dgp\\shaders\\water.frag",
-              "ToolTip": "C:\\Users\\k2417242\\github\\waterInitial\\100.WaterInitial\\100.WaterInitial\\3dgp\\shaders\\water.frag",
+              "ToolTip": "C:\\Users\\jonxg\\Documents\\GitHub\\waterInitial\\100.WaterInitial\\100.WaterInitial\\3dgp\\shaders\\water.frag",
               "RelativeToolTip": "3dgp\\shaders\\water.frag",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
@@ -73,11 +73,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "water.vert",
-              "DocumentMoniker": "C:\\Users\\k2417242\\github\\waterInitial\\100.WaterInitial\\100.WaterInitial\\3dgp\\shaders\\water.vert",
+              "DocumentMoniker": "C:\\Users\\jonxg\\Documents\\GitHub\\waterInitial\\100.WaterInitial\\100.WaterInitial\\3dgp\\shaders\\water.vert",
               "RelativeDocumentMoniker": "3dgp\\shaders\\water.vert",
-              "ToolTip": "C:\\Users\\k2417242\\github\\waterInitial\\100.WaterInitial\\100.WaterInitial\\3dgp\\shaders\\water.vert",
+              "ToolTip": "C:\\Users\\jonxg\\Documents\\GitHub\\waterInitial\\100.WaterInitial\\100.WaterInitial\\3dgp\\shaders\\water.vert",
               "RelativeToolTip": "3dgp\\shaders\\water.vert",
               "ViewState": "AgIAACcAAAAAAAAAAAAAwDkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
@@ -86,16 +86,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\k2417242\\github\\waterInitial\\100.WaterInitial\\100.WaterInitial\\3dgp\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\jonxg\\Documents\\GitHub\\waterInitial\\100.WaterInitial\\100.WaterInitial\\3dgp\\main.cpp",
               "RelativeDocumentMoniker": "3dgp\\main.cpp",
-              "ToolTip": "C:\\Users\\k2417242\\github\\waterInitial\\100.WaterInitial\\100.WaterInitial\\3dgp\\main.cpp",
+              "ToolTip": "C:\\Users\\jonxg\\Documents\\GitHub\\waterInitial\\100.WaterInitial\\100.WaterInitial\\3dgp\\main.cpp",
               "RelativeToolTip": "3dgp\\main.cpp",
               "ViewState": "AgIAAKkAAAAAAAAAAAAqwLQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-24T10:11:33.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T10:11:33.148Z"
             }
           ]
         }

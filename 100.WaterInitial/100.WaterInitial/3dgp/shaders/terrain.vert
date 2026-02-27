@@ -76,8 +76,6 @@ void main(void)
 	// calculate the observer's altitude above the observed vertex
 	float eyeAlt = dot(-position.xyz, mat3(matrixModelView) * vec3(0, 1, 0));
 
-	waterDepth = max(waterDepth, 0);
-
 	fogFactor = exp2(-fogDensity * length(position) * (waterDepth / eyeAlt));
 
 	// calculate light
